@@ -11,4 +11,5 @@ scalacOptions := Seq("-feature", "-unchecked", "-deprecation", "-encoding", "utf
 // Test dependencies
 libraryDependencies ++= Seq(
   "org.scalatest" % "scalatest_2.10" % "2.1.0" % "test",
-  "org.scalamock" %% "scalamock-scalatest-support" % "3.0.1" % "test")
+  "org.mockito" % "mockito-core" % "1.9.5",
+  "org.specs2" %% "specs2" % "2.3.10" % "test")
