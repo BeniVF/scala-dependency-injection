@@ -4,7 +4,10 @@
 
 ## Description
 
+Integrate two different modules to create an application:
 
+ - *MusicModule*: contains the classes to achieve the music's requirements (e.g.: get the user's song list)
+ - *DatSourceModule*: contains the classes concerning to the persistence engine.
 
 ## Prerequisites
 
