@@ -2,7 +2,6 @@ package service
 
 import datasource.DataSource
 
-
 trait MusicModule {
   def musicService: MusicService
 }
